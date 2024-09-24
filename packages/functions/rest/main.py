@@ -8,6 +8,7 @@ if os.getenv("IS_LOCAL"):  # In local dev add packages/ to path
 
 from core import modA
 
+
 def handler(event, context):
     print(modA.mod_a_test_func())
-    return {"statusCode": 200, "body": "Hello, World!"}
+    return {"statusCode": 200, "body": "TESTING ONE TWO THREE"}
